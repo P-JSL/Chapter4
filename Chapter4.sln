@@ -7,6 +7,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WritingFunction", "WritingF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Debugging", "Debugging\Debugging.csproj", "{8D1D74F2-359F-4F1E-850A-39CECADCE4DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Instrumenting", "Instrumenting\Instrumenting.csproj", "{6F3ED7CC-A5AF-40E7-8E0A-5A95D2740A78}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{A9847C41-9119-49D8-88B8-4D64F6581AC5}"
+	ProjectSection(SolutionItems) = preProject
+		appsettings.json = appsettings.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorLib", "CalculatorLib\CalculatorLib.csproj", "{D82553B3-C3BF-40D6-9A8E-78CD5D50B213}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorLibUnitTests", "CalculatorLibUnitTests\CalculatorLibUnitTests.csproj", "{23E5CD23-E828-464F-8F20-EBED4F36F960}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +32,18 @@ Global
 		{8D1D74F2-359F-4F1E-850A-39CECADCE4DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D1D74F2-359F-4F1E-850A-39CECADCE4DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D1D74F2-359F-4F1E-850A-39CECADCE4DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F3ED7CC-A5AF-40E7-8E0A-5A95D2740A78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F3ED7CC-A5AF-40E7-8E0A-5A95D2740A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F3ED7CC-A5AF-40E7-8E0A-5A95D2740A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F3ED7CC-A5AF-40E7-8E0A-5A95D2740A78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D82553B3-C3BF-40D6-9A8E-78CD5D50B213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D82553B3-C3BF-40D6-9A8E-78CD5D50B213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D82553B3-C3BF-40D6-9A8E-78CD5D50B213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D82553B3-C3BF-40D6-9A8E-78CD5D50B213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23E5CD23-E828-464F-8F20-EBED4F36F960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23E5CD23-E828-464F-8F20-EBED4F36F960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23E5CD23-E828-464F-8F20-EBED4F36F960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23E5CD23-E828-464F-8F20-EBED4F36F960}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
